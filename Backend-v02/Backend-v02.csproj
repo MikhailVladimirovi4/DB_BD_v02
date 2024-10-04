@@ -17,11 +17,12 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
-    <Folder Include="Core\Abstractions\" />
-    <Folder Include="Core\Models\" />
-    <Folder Include="DataAccess\Entities\" />
-    <Folder Include="DataAccess\Repositories\" />
-    <Folder Include="Services\" />
+    <Folder Include="DataBaseCore\Abstractions\" />
+    <Folder Include="DataBaseCore\Models\" />
+    <Folder Include="DataBaseAccess\Entities\" />
+    <Folder Include="DataBaseAccess\Repositories\" />
+    <Folder Include="DataBaseAccess\Configurations\" />
+    <Folder Include="DataBaseServices\" />
     <Folder Include="Contracts\" />
   </ItemGroup>
 
