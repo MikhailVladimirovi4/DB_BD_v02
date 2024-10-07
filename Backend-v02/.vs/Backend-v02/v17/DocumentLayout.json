@@ -84,7 +84,7 @@
               "RelativeDocumentMoniker": "DataBaseAccess\\Repositories\\DoorRepository.cs",
               "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseAccess\\Repositories\\DoorRepository.cs",
               "RelativeToolTip": "DataBaseAccess\\Repositories\\DoorRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T14:05:28.979Z",
               "EditorCaption": ""
@@ -99,8 +99,7 @@
               "RelativeToolTip": "DataBaseAccess\\Entities\\UserEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T18:32:12.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T18:32:12.935Z"
             },
             {
               "$type": "Document",
@@ -112,8 +111,7 @@
               "RelativeToolTip": "DataBaseAccess\\DataBaseDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T18:25:44.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T18:25:44.687Z"
             },
             {
               "$type": "Document",
@@ -125,8 +123,7 @@
               "RelativeToolTip": "DataBaseAccess\\Entities\\DomofonEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T18:31:22.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T18:31:22.794Z"
             },
             {
               "$type": "Document",
@@ -150,8 +147,7 @@
               "RelativeToolTip": "DataBaseAccess\\Entities\\DoorEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T18:31:39.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T18:31:39.383Z"
             },
             {
               "$type": "Document",
@@ -175,8 +171,7 @@
               "RelativeToolTip": "DataBaseCore\\Models\\Door.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T17:51:05.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T17:51:05.441Z"
             },
             {
               "$type": "Document",
