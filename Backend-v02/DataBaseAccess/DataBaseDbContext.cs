@@ -1,12 +1,19 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Backend_v02.DataBaseAccess.Entities;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace Backend_v02.DataBaseAccess
 {
     public class DataBaseDbContext : DbContext
     {
-        public DataBaseDbContext(IConfiguration configuration) : ba
+        public DataBaseDbContext(DbContextOptions<DataBaseDbContext> options)
+            : base(options)
         {
-
         }
+
+        public DbSet<DomofonEntity> Domofons { get; set; }
+        public DbSet<DoorEntity> Doors { get; set; }
+        public DbSet<StateOrderEntity> StateOrders { get; set; }
+        public DbSet<UserEntity> Users { get; set; }
+    }
 }

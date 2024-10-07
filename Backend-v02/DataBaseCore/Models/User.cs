@@ -17,7 +17,7 @@
         {
             Id = id;
             Login = login;
-            _data.Add(login, password);
+            _data.Add(login, password); // Вставить логику шифра
             Level = level;
         }
 
@@ -26,6 +26,14 @@
             var user = new User(id, login, password, level);
 
             return (user);
+        }
+
+        public string GetPassword(int level, string login)
+        {
+            if (level == Admin)
+                return _data[login];
+            else
+                return string.Empty;
         }
     }
 }

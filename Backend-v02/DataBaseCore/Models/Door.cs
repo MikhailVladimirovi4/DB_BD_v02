@@ -1,7 +1,4 @@
-﻿using System.Reflection.Emit;
-using System.Xml.Linq;
-
-namespace Backend_v02.DataBaseCore.Models
+﻿namespace Backend_v02.DataBaseCore.Models
 {
     public class Door
     {
