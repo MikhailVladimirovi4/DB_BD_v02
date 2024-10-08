@@ -3,12 +3,48 @@
   "WorkspaceRootPath": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\databasecore\\models\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:databasecore\\models\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\databasecore\\models\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:databasecore\\models\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\databasecore\\models\\stateorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:databasecore\\models\\stateorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\databasecore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:databasecore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\databaseaccess\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:databaseaccess\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\databaseaccess\\repositories\\camerasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:databaseaccess\\repositories\\camerasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\databaseservices\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:databaseservices\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\databaseservices\\stateordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:databaseservices\\stateordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\contracts\\usersrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,24 +107,8 @@
       "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:databasecore\\abstractions\\icamerasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\databaseservices\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:databaseservices\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\databaseaccess\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:databaseaccess\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\databaseservices\\stateordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:databaseservices\\stateordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\databaseservices\\doorsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:databaseservices\\doorsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\databasecore\\models\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:databasecore\\models\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\databasecore\\abstractions\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,28 +127,8 @@
       "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:databaseaccess\\repositories\\doorsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\databaseaccess\\repositories\\camerasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:databaseaccess\\repositories\\camerasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\databaseaccess\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:databaseaccess\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\databasecore\\models\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:databasecore\\models\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\databasecore\\models\\stateorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:databasecore\\models\\stateorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\databaseaccess\\configurations\\cameraconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -162,24 +162,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsersResponse.cs",
-              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Contracts\\UsersResponse.cs",
-              "RelativeDocumentMoniker": "Contracts\\UsersResponse.cs",
-              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Contracts\\UsersResponse.cs",
-              "RelativeToolTip": "Contracts\\UsersResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DataBaseCore\\Models\\User.cs",
+              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Models\\User.cs",
+              "RelativeToolTip": "DataBaseCore\\Models\\User.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T14:16:39.473Z",
+              "WhenOpened": "2024-10-05T17:34:49.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsersService.cs",
+              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseServices\\UsersService.cs",
+              "RelativeDocumentMoniker": "DataBaseServices\\UsersService.cs",
+              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseServices\\UsersService.cs",
+              "RelativeToolTip": "DataBaseServices\\UsersService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T12:52:04.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StateOrder.cs",
+              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Models\\StateOrder.cs",
+              "RelativeDocumentMoniker": "DataBaseCore\\Models\\StateOrder.cs",
+              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Models\\StateOrder.cs",
+              "RelativeToolTip": "DataBaseCore\\Models\\StateOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T17:24:40.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Door.cs",
+              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Models\\Door.cs",
+              "RelativeDocumentMoniker": "DataBaseCore\\Models\\Door.cs",
+              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Models\\Door.cs",
+              "RelativeToolTip": "DataBaseCore\\Models\\Door.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T17:51:05.441Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Camera.cs",
+              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Models\\Camera.cs",
+              "RelativeDocumentMoniker": "DataBaseCore\\Models\\Camera.cs",
+              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Models\\Camera.cs",
+              "RelativeToolTip": "DataBaseCore\\Models\\Camera.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T16:48:19.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "docker-compose.yaml",
+              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\docker-compose.yaml",
+              "RelativeDocumentMoniker": "docker-compose.yaml",
+              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\docker-compose.yaml",
+              "RelativeToolTip": "docker-compose.yaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-10-08T08:26:55.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CamerasRepository.cs",
+              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseAccess\\Repositories\\CamerasRepository.cs",
+              "RelativeDocumentMoniker": "DataBaseAccess\\Repositories\\CamerasRepository.cs",
+              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseAccess\\Repositories\\CamerasRepository.cs",
+              "RelativeToolTip": "DataBaseAccess\\Repositories\\CamerasRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T07:06:56.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-06T19:31:56.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T13:18:48.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseAccess\\Repositories\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "DataBaseAccess\\Repositories\\UsersRepository.cs",
+              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseAccess\\Repositories\\UsersRepository.cs",
+              "RelativeToolTip": "DataBaseAccess\\Repositories\\UsersRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T07:46:35.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StateOrdersService.cs",
+              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseServices\\StateOrdersService.cs",
+              "RelativeDocumentMoniker": "DataBaseServices\\StateOrdersService.cs",
+              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseServices\\StateOrdersService.cs",
+              "RelativeToolTip": "DataBaseServices\\StateOrdersService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T12:38:36.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "UsersRequest.cs",
               "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Contracts\\UsersRequest.cs",
               "RelativeDocumentMoniker": "Contracts\\UsersRequest.cs",
@@ -192,59 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
-              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Controllers\\UsersController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T13:18:48.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StateOrderController.cs",
-              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Controllers\\StateOrderController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StateOrderController.cs",
-              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Controllers\\StateOrderController.cs",
-              "RelativeToolTip": "Controllers\\StateOrderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T13:18:37.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DoorsController.cs",
-              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Controllers\\DoorsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DoorsController.cs",
-              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Controllers\\DoorsController.cs",
-              "RelativeToolTip": "Controllers\\DoorsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T13:18:21.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CamerasController.cs",
-              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Controllers\\CamerasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CamerasController.cs",
-              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Controllers\\CamerasController.cs",
-              "RelativeToolTip": "Controllers\\CamerasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T13:17:58.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "Backend-v02.http",
               "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Backend-v02.http",
               "RelativeDocumentMoniker": "Backend-v02.http",
@@ -252,25 +330,59 @@
               "RelativeToolTip": "Backend-v02.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-10-08T13:16:12.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T13:16:12.941Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Models\\User.cs",
-              "RelativeDocumentMoniker": "DataBaseCore\\Models\\User.cs",
-              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Models\\User.cs",
-              "RelativeToolTip": "DataBaseCore\\Models\\User.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "CamerasController.cs",
+              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Controllers\\CamerasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CamerasController.cs",
+              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Controllers\\CamerasController.cs",
+              "RelativeToolTip": "Controllers\\CamerasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T17:34:49.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T13:17:58.911Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
+              "Title": "DoorsController.cs",
+              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Controllers\\DoorsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DoorsController.cs",
+              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Controllers\\DoorsController.cs",
+              "RelativeToolTip": "Controllers\\DoorsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T13:18:21.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StateOrderController.cs",
+              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Controllers\\StateOrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StateOrderController.cs",
+              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Controllers\\StateOrderController.cs",
+              "RelativeToolTip": "Controllers\\StateOrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T13:18:37.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsersResponse.cs",
+              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Contracts\\UsersResponse.cs",
+              "RelativeDocumentMoniker": "Contracts\\UsersResponse.cs",
+              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Contracts\\UsersResponse.cs",
+              "RelativeToolTip": "Contracts\\UsersResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T14:16:39.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Backend-v02.csproj",
               "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Backend-v02.csproj",
               "RelativeDocumentMoniker": "Backend-v02.csproj",
@@ -278,12 +390,11 @@
               "RelativeToolTip": "Backend-v02.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-06T19:57:46.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-06T19:57:46.335Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "IUsersService.cs",
               "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Abstractions\\IUsersService.cs",
               "RelativeDocumentMoniker": "DataBaseCore\\Abstractions\\IUsersService.cs",
@@ -291,12 +402,11 @@
               "RelativeToolTip": "DataBaseCore\\Abstractions\\IUsersService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:58:55.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T12:58:55.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "IStateOrdersService.cs",
               "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Abstractions\\IStateOrdersService.cs",
               "RelativeDocumentMoniker": "DataBaseCore\\Abstractions\\IStateOrdersService.cs",
@@ -304,12 +414,11 @@
               "RelativeToolTip": "DataBaseCore\\Abstractions\\IStateOrdersService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:58:48.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T12:58:48.968Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "IDoorsService.cs",
               "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Abstractions\\IDoorsService.cs",
               "RelativeDocumentMoniker": "DataBaseCore\\Abstractions\\IDoorsService.cs",
@@ -317,12 +426,11 @@
               "RelativeToolTip": "DataBaseCore\\Abstractions\\IDoorsService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:58:33.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T12:58:33.156Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "ICamerasService.cs",
               "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Abstractions\\ICamerasService.cs",
               "RelativeDocumentMoniker": "DataBaseCore\\Abstractions\\ICamerasService.cs",
@@ -330,38 +438,11 @@
               "RelativeToolTip": "DataBaseCore\\Abstractions\\ICamerasService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:57:55.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UsersService.cs",
-              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseServices\\UsersService.cs",
-              "RelativeDocumentMoniker": "DataBaseServices\\UsersService.cs",
-              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseServices\\UsersService.cs",
-              "RelativeToolTip": "DataBaseServices\\UsersService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:52:04.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T12:57:55.386Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "StateOrdersService.cs",
-              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseServices\\StateOrdersService.cs",
-              "RelativeDocumentMoniker": "DataBaseServices\\StateOrdersService.cs",
-              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseServices\\StateOrdersService.cs",
-              "RelativeToolTip": "DataBaseServices\\StateOrdersService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAwCAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:38:36.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "CamerasService.cs",
               "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseServices\\CamerasService.cs",
               "RelativeDocumentMoniker": "DataBaseServices\\CamerasService.cs",
@@ -369,12 +450,11 @@
               "RelativeToolTip": "DataBaseServices\\CamerasService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T08:47:54.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T08:47:54.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -382,12 +462,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAABsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T19:12:46.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-06T19:12:46.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "DoorsService.cs",
               "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseServices\\DoorsService.cs",
               "RelativeDocumentMoniker": "DataBaseServices\\DoorsService.cs",
@@ -395,12 +474,11 @@
               "RelativeToolTip": "DataBaseServices\\DoorsService.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:30:34.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T12:30:34.517Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "IStateOrdersRepository.cs",
               "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Abstractions\\IStateOrdersRepository.cs",
               "RelativeDocumentMoniker": "DataBaseCore\\Abstractions\\IStateOrdersRepository.cs",
@@ -408,38 +486,11 @@
               "RelativeToolTip": "DataBaseCore\\Abstractions\\IStateOrdersRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T08:16:20.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T08:16:20.71Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Camera.cs",
-              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Models\\Camera.cs",
-              "RelativeDocumentMoniker": "DataBaseCore\\Models\\Camera.cs",
-              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Models\\Camera.cs",
-              "RelativeToolTip": "DataBaseCore\\Models\\Camera.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T16:48:19.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UsersRepository.cs",
-              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseAccess\\Repositories\\UsersRepository.cs",
-              "RelativeDocumentMoniker": "DataBaseAccess\\Repositories\\UsersRepository.cs",
-              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseAccess\\Repositories\\UsersRepository.cs",
-              "RelativeToolTip": "DataBaseAccess\\Repositories\\UsersRepository.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAAC0AAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T07:46:35.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "ICamerasRepository.cs",
               "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Abstractions\\ICamerasRepository.cs",
               "RelativeDocumentMoniker": "DataBaseCore\\Abstractions\\ICamerasRepository.cs",
@@ -447,12 +498,11 @@
               "RelativeToolTip": "DataBaseCore\\Abstractions\\ICamerasRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T08:15:09.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T08:15:09.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "IUsersRepository.cs",
               "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Abstractions\\IUsersRepository.cs",
               "RelativeDocumentMoniker": "DataBaseCore\\Abstractions\\IUsersRepository.cs",
@@ -460,12 +510,11 @@
               "RelativeToolTip": "DataBaseCore\\Abstractions\\IUsersRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T08:16:35.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T08:16:35.131Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "IDoorsRepository.cs",
               "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Abstractions\\IDoorsRepository.cs",
               "RelativeDocumentMoniker": "DataBaseCore\\Abstractions\\IDoorsRepository.cs",
@@ -473,12 +522,11 @@
               "RelativeToolTip": "DataBaseCore\\Abstractions\\IDoorsRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T08:16:08.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T08:16:08.553Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "StateOrdersRepository.cs",
               "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseAccess\\Repositories\\StateOrdersRepository.cs",
               "RelativeDocumentMoniker": "DataBaseAccess\\Repositories\\StateOrdersRepository.cs",
@@ -486,12 +534,11 @@
               "RelativeToolTip": "DataBaseAccess\\Repositories\\StateOrdersRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T07:26:25.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T07:26:25.809Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "DoorsRepository.cs",
               "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseAccess\\Repositories\\DoorsRepository.cs",
               "RelativeDocumentMoniker": "DataBaseAccess\\Repositories\\DoorsRepository.cs",
@@ -499,51 +546,11 @@
               "RelativeToolTip": "DataBaseAccess\\Repositories\\DoorsRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAACOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T14:05:28.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T14:05:28.979Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CamerasRepository.cs",
-              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseAccess\\Repositories\\CamerasRepository.cs",
-              "RelativeDocumentMoniker": "DataBaseAccess\\Repositories\\CamerasRepository.cs",
-              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseAccess\\Repositories\\CamerasRepository.cs",
-              "RelativeToolTip": "DataBaseAccess\\Repositories\\CamerasRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T07:06:56.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "docker-compose.yaml",
-              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\docker-compose.yaml",
-              "RelativeDocumentMoniker": "docker-compose.yaml",
-              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\docker-compose.yaml",
-              "RelativeToolTip": "docker-compose.yaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-10-08T08:26:55.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-06T19:31:56.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "UserEntity.cs",
               "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseAccess\\Entities\\UserEntity.cs",
               "RelativeDocumentMoniker": "DataBaseAccess\\Entities\\UserEntity.cs",
@@ -551,34 +558,7 @@
               "RelativeToolTip": "DataBaseAccess\\Entities\\UserEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T18:32:12.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Door.cs",
-              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Models\\Door.cs",
-              "RelativeDocumentMoniker": "DataBaseCore\\Models\\Door.cs",
-              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Models\\Door.cs",
-              "RelativeToolTip": "DataBaseCore\\Models\\Door.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T17:51:05.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "StateOrder.cs",
-              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Models\\StateOrder.cs",
-              "RelativeDocumentMoniker": "DataBaseCore\\Models\\StateOrder.cs",
-              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Models\\StateOrder.cs",
-              "RelativeToolTip": "DataBaseCore\\Models\\StateOrder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T17:24:40.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T18:32:12.935Z"
             },
             {
               "$type": "Document",
@@ -590,8 +570,7 @@
               "RelativeToolTip": "DataBaseAccess\\Configurations\\CameraConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T13:30:14.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T13:30:14.829Z"
             },
             {
               "$type": "Document",
@@ -603,8 +582,7 @@
               "RelativeToolTip": "DataBaseAccess\\Entities\\StateOrderEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T18:31:59.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T18:31:59.027Z"
             },
             {
               "$type": "Document",
@@ -616,8 +594,7 @@
               "RelativeToolTip": "DataBaseAccess\\Entities\\DoorEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T18:31:39.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T18:31:39.383Z"
             },
             {
               "$type": "Document",
@@ -629,8 +606,7 @@
               "RelativeToolTip": "DataBaseAccess\\Entities\\CameraEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T18:31:22.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T18:31:22.794Z"
             },
             {
               "$type": "Document",
@@ -642,8 +618,7 @@
               "RelativeToolTip": "DataBaseAccess\\Configurations\\StateOrderConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T13:40:13.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T13:40:13.538Z"
             },
             {
               "$type": "Document",
@@ -655,8 +630,7 @@
               "RelativeToolTip": "DataBaseAccess\\Configurations\\DoorConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T13:21:19.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T13:21:19.971Z"
             }
           ]
         }

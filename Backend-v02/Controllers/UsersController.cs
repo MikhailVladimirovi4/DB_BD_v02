@@ -12,7 +12,7 @@ namespace Backend_v02.Controllers
     {
         private readonly IUsersService _usersService;
 
-        public UsersController(IUsersService usersService) 
+        public UsersController(IUsersService usersService)
         {
             _usersService = usersService;
         }
@@ -26,14 +26,18 @@ namespace Backend_v02.Controllers
             return Ok(response);
         }
 
-        [HttpPost]
-        public async Task<ActionResult<Guid>> CreateUser([FromBody] UsersRequest request)
-        {
-            var user =
+  //      [HttpPost]
+  //      public async Task<ActionResult<Guid>> CreateUser([FromBody] UsersRequest request)
+    //    {
+   //         var user = User. (
+  //              Guid.NewGuid(),
+  //              request.Login,
+  //              request.Password,
+   //             request.Level);
 
-            await _usersService.CreateUser(user);
+   //        var userId = await _usersService.CreateUser(user, user.Level);
 
-            return Ok(user);
-        }
+   //         return Ok(userId);
+     //   }
     }
 }
