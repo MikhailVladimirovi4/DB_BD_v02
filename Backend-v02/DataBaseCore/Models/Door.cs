@@ -3,13 +3,13 @@
     public class Door
     {
         public Guid Id { get; }
-        public string City { get; } = string.Empty;
-        public string Street { get; } = string.Empty;
-        public string House { get; } = string.Empty;
+        public string City { get; }
+        public string Street { get; }
+        public string House { get; }
         public int Number { get; }
-        public string Ip { get; } = string.Empty;
-        public string Escort { get; } = string.Empty;
-        public string Device { get; } = string.Empty;
+        public string Ip { get; }
+        public string Escort { get; }
+        public string Device { get; }
 
         private Door(Guid id, string city, string street, string house, int number, string ip, string escort, string device)
         {

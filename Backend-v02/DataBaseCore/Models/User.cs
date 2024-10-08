@@ -2,15 +2,14 @@
 {
     public class User
     {
-        public static int Viewer = 0;
-        public static int Operator = 10;
-        public static int Admin = 100;
+        public static int USER_LEVEL_VIEWER = 0;
+        public static int USER_LEVEL_OPERATOR = 10;
+        public static int USER_LEVEL_ADMIN = 100;
 
         private Dictionary<string, string> _data = new Dictionary<string, string>();
 
         public Guid Id { get; }
-
-        public string Login { get; } = string.Empty;
+        public string Login { get; }
         public int Level { get; }
 
         private User(Guid id, string login, string password, int level)
@@ -30,7 +29,7 @@
 
         public string GetPassword(int level, string login)
         {
-            if (level == Admin)
+            if (level == USER_LEVEL_ADMIN)
                 return _data[login];
             else
                 return string.Empty;

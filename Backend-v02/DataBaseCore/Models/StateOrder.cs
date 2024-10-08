@@ -4,7 +4,7 @@
     {
         public Guid Id { get; }
         public int Number { get; }
-        public string Name { get; } = string.Empty;
+        public string Name { get; }
         public int Year { get; }
 
         private StateOrder(Guid id, int number, string name, int year)

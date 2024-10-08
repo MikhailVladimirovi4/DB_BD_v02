@@ -1,6 +1,6 @@
 @Backend_v02_HostAddress = http://localhost:5255
 
-GET {{Backend_v02_HostAddress}}/weatherforecast/
+GET {{Backend_v02_HostAddress}}/databasecameras/
 Accept: application/json
 
 ###

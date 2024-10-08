@@ -7,11 +7,9 @@ namespace Backend_v02.DataBaseAccess
     public class DataBaseDbContext : DbContext
     {
         public DataBaseDbContext(DbContextOptions<DataBaseDbContext> options)
-            : base(options)
-        {
-        }
+            : base(options){}
 
-        public DbSet<DomofonEntity> Domofons { get; set; }
+        public DbSet<CameraEntity> Cameras { get; set; }
         public DbSet<DoorEntity> Doors { get; set; }
         public DbSet<StateOrderEntity> StateOrders { get; set; }
         public DbSet<UserEntity> Users { get; set; }

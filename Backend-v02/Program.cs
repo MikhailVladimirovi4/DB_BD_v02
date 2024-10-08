@@ -1,19 +1,32 @@
 using Backend_v02.DataBaseAccess;
+using Backend_v02.DataBaseAccess.Repositories;
+using Backend_v02.DataBaseCore.Abstractions;
+using Backend_v02.DataBaseServices;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<DataBaseDbContext>();
+builder.Services.AddDbContext<DataBaseDbContext>(
+    options =>
+    {
+        options.UseNpgsql(builder.Configuration.GetConnectionString(nameof(DataBaseDbContext)));
+    });
+
+builder.Services.AddScoped<ICamerasService, CamerasService>();
+builder.Services.AddScoped<ICamerasRepository, CamerasRepository>();
+builder.Services.AddScoped<IDoorsService, DoorsService>();
+builder.Services.AddScoped<IDoorsRepository, DoorsRepository>();
+builder.Services.AddScoped<IStateOrdersService, StateOrdersService>();
+builder.Services.AddScoped<IStateOrdersRepository, StateOrdersRepository>();
+builder.Services.AddScoped<IUsersService, UsersService>();
+builder.Services.AddScoped<IUsersRepository, UsersRepository>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
