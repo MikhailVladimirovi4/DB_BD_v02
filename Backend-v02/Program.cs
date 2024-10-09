@@ -22,8 +22,6 @@ builder.Services.AddScoped<IPlacesService, PlacesService>();
 builder.Services.AddScoped<IPlacesRepository, PlacesRepository>();
 builder.Services.AddScoped<IStateOrdersService, StateOrdersService>();
 builder.Services.AddScoped<IStateOrdersRepository, StateOrdersRepository>();
-builder.Services.AddScoped<IUsersService, UsersService>();
-builder.Services.AddScoped<IUsersRepository, UsersRepository>();
 
 var app = builder.Build();
 
