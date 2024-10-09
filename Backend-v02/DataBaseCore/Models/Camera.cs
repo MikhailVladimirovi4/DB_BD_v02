@@ -20,7 +20,7 @@
 
         public static Camera Create(Guid id, string vendor, string name, string rtsp)
         {
-            Camera camera = new Camera(id, vendor, name, rtsp);
+            Camera camera = new(id, vendor, name, rtsp);
 
             return (camera);
         }

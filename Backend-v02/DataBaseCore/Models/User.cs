@@ -2,11 +2,11 @@
 {
     public class User
     {
-        public static int USER_LEVEL_VIEWER = 0;
-        public static int USER_LEVEL_OPERATOR = 10;
-        public static int USER_LEVEL_ADMIN = 100;
+        public const int USER_LEVEL_VIEWER = 0;
+        public const int USER_LEVEL_OPERATOR = 10;
+        public const int USER_LEVEL_ADMIN = 100;
 
-        private Dictionary<string, string> _data = new Dictionary<string, string>();
+        private readonly Dictionary<string, string> _data = new();
 
         public Guid Id { get; }
         public string Login { get; }

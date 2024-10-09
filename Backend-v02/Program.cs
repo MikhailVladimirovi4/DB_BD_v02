@@ -18,8 +18,8 @@ builder.Services.AddDbContext<DataBaseDbContext>(
 
 builder.Services.AddScoped<ICamerasService, CamerasService>();
 builder.Services.AddScoped<ICamerasRepository, CamerasRepository>();
-builder.Services.AddScoped<IDoorsService, DoorsService>();
-builder.Services.AddScoped<IDoorsRepository, DoorsRepository>();
+builder.Services.AddScoped<IPlacesService, PlacesService>();
+builder.Services.AddScoped<IPlacesRepository, PlacesRepository>();
 builder.Services.AddScoped<IStateOrdersService, StateOrdersService>();
 builder.Services.AddScoped<IStateOrdersRepository, StateOrdersRepository>();
 builder.Services.AddScoped<IUsersService, UsersService>();

@@ -5,57 +5,53 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Backend_v02.DataBaseAccess.Repositories
 {
-    public class DoorsRepository : IDoorsRepository
+    public class PlacesRepository : IPlacesRepository
     {
         private readonly DataBaseDbContext _context;
 
-        public DoorsRepository(DataBaseDbContext context)
+        public PlacesRepository(DataBaseDbContext context)
         {
             _context = context;
         }
 
-        public async Task<List<Door>> Get()
+        public async Task<List<Place>> Get()
         {
-            var doorEntities = await _context.Doors
+            var placeEntities = await _context.Places
                 .AsNoTracking()
                 .ToListAsync();
 
-            var doors = doorEntities
-                .Select(b => Door.Create(b.Id, b.City, b.Street, b.House, b.Number, b.Ip, b.Escort, b.Device))
+            var places = placeEntities
+                .Select(b => Place.Create(b.Id, b.City, b.Address, b.Ip, b.Escort, b.Device).Place)
                 .ToList();
 
-            return doors;
+            return places;
         }
 
-        public async Task<Guid> Create(Door door)
+        public async Task<Guid> Create(Place door)
         {
-            DoorEntity doorEntity = new DoorEntity
+            PlaceEntity doorEntity = new PlaceEntity
             {
                 Id = door.Id,
                 City = door.City,
-                Street = door.Street,
-                House = door.House,
-                Number = door.Number,
+                Address = door.Address,
                 Ip = door.Ip,
                 Escort = door.Escort,
                 Device = door.Device
             };
 
-            await _context.Doors.AddAsync(doorEntity);
+            await _context.Places.AddAsync(doorEntity);
             await _context.SaveChangesAsync();
 
             return doorEntity.Id;
         }
 
-        public async Task<Guid> Update(Guid id, string city, string street, string house, int number, string ip, string escort, string device)
+        public async Task<Guid> Update(Guid id, string city, string address, string ip, string escort, string device)
         {
-            await _context.Doors
+            await _context.Places
                 .Where(b => b.Id == id)
                 .ExecuteUpdateAsync(s => s
                 .SetProperty(b => b.City, b => city)
-                .SetProperty(b => b.Street, b => street)
-                .SetProperty(b => b.House, b => house)
-                .SetProperty(b => b.Number, b => number)
+                .SetProperty(b => b.Address, b => address)
                 .SetProperty(b => b.Ip, b => ip)
                 .SetProperty(b => b.Escort, b => escort)
                 .SetProperty(b => b.Device, b => device));
@@ -67,7 +63,7 @@ namespace Backend_v02.DataBaseAccess.Repositories
 
         public async Task<Guid> Delete(Guid id)
         {
-            await _context.Doors
+            await _context.Places
                 .Where(b => b.Id == id)
                 .ExecuteDeleteAsync();
 

@@ -1,6 +1,6 @@
 ﻿namespace Backend_v02.Contracts
 {
-    record class UsersRequest(
+   public record UsersRequest(
     string Login,
     string Password,
     int Level);
