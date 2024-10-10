@@ -6,7 +6,23 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "keyParametr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sortOrder",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.List\u00601[[Backend_v02.Contracts.CamerasResponse, Backend-v02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
@@ -114,12 +130,28 @@
   },
   {
     "ContainingType": "Backend_v02.Controllers.PlacesController",
-    "Method": "GetPlace",
+    "Method": "GetPlaces",
     "RelativePath": "Places",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sortItem",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sortOrder",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.List\u00601[[Backend_v02.Contracts.PlacesResponse, Backend-v02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
@@ -242,7 +274,23 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sortItem",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sortOrder",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.List\u00601[[Backend_v02.Contracts.StateOrdersResponse, Backend-v02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",

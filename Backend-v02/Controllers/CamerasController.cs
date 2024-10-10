@@ -1,7 +1,9 @@
 ﻿using Backend_v02.Contracts;
+using Backend_v02.DataBaseAccess;
 using Backend_v02.DataBaseCore.Abstractions;
 using Backend_v02.DataBaseCore.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Backend_v02.Controllers
 {
@@ -11,18 +13,45 @@ namespace Backend_v02.Controllers
     public class CamerasController : ControllerBase
     {
         private readonly ICamerasService _camerasService;
+        private readonly DataBaseDbContext _dataBaseDbContext;
 
-        public CamerasController(ICamerasService camerasService)
+        public CamerasController(ICamerasService camerasService, DataBaseDbContext dataBaseDbContext)
         {
             _camerasService = camerasService;
+            _dataBaseDbContext = dataBaseDbContext;
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<CamerasResponse>>> GetCameras()
+        public async Task<ActionResult<List<CamerasResponse>>> GetCameras(string? keyParametr, string search, string? sortOrder)
         {
-            var camera = await _camerasService.GetAllCameras();
 
-            var response = camera.Select(b => new CamerasResponse(b.Id, b.Vendor,b.Name,b.Rtsp));
+            var camerasQuery = _dataBaseDbContext.Cameras.Where(n => string.IsNullOrWhiteSpace(search) || n.Name.ToLower().Contains(search.ToLower()));
+
+            switch (keyParametr)
+            {
+                case "vendor":
+                    if (sortOrder == "desc")
+                        camerasQuery = camerasQuery.OrderByDescending(n => n.Vendor);
+                    else
+                        camerasQuery = camerasQuery.OrderBy(n => n.Vendor);
+                    break;
+
+                case "name":
+                    if (sortOrder == "desc")
+                        camerasQuery = camerasQuery.OrderByDescending(n => n.Name);
+                    else
+                        camerasQuery = camerasQuery.OrderBy(n => n.Name);
+                    break;
+
+                default:
+                    if (sortOrder == "desc")
+                        camerasQuery = camerasQuery.OrderByDescending(n => n.Id);
+                    else
+                        camerasQuery = camerasQuery.OrderBy(n => n.Id);
+                    break;
+            }
+
+            var response = await camerasQuery.Select(b => new CamerasResponse(b.Id, b.Vendor, b.Name, b.Rtsp)).ToListAsync();
 
             return Ok(response);
         }
@@ -42,7 +71,7 @@ namespace Backend_v02.Controllers
         }
 
         [HttpPut("{id:guid}")]
-        public async Task<ActionResult<Guid>> UpdateCamera(Guid id, string vendor, string name, string rtsp) 
+        public async Task<ActionResult<Guid>> UpdateCamera(Guid id, string vendor, string name, string rtsp)
         {
             var cameraId = await _camerasService.UpdateCamera(id, vendor, name, rtsp);
 

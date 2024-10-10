@@ -27,22 +27,22 @@ namespace Backend_v02.DataBaseAccess.Repositories
             return places;
         }
 
-        public async Task<Guid> Create(Place door)
+        public async Task<Guid> Create(Place place)
         {
-            PlaceEntity doorEntity = new PlaceEntity
+            PlaceEntity placeEntity = new PlaceEntity
             {
-                Id = door.Id,
-                City = door.City,
-                Address = door.Address,
-                Ip = door.Ip,
-                Escort = door.Escort,
-                Device = door.Device
+                Id = place.Id,
+                City = place.City,
+                Address = place.Address,
+                Ip = place.Ip,
+                Escort = place.Escort,
+                Device = place.Device
             };
 
-            await _context.Places.AddAsync(doorEntity);
+            await _context.Places.AddAsync(placeEntity);
             await _context.SaveChangesAsync();
 
-            return doorEntity.Id;
+            return placeEntity.Id;
         }
 
         public async Task<Guid> Update(Guid id, string city, string address, string ip, string escort, string device)
