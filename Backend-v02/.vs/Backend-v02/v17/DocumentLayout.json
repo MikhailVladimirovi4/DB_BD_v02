@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\databaseaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:databaseaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\databasecore\\abstractions\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:databasecore\\abstractions\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\databaseaccess\\registrationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:databaseaccess\\registrationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\databaseaccess\\databasedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:databaseaccess\\databasedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\databasecore\\models\\localuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:databasecore\\models\\localuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|c:\\vs projects\\database\\db_bd_v02\\backend-v02\\controllers\\placescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA3A7274-9B6F-4525-89BF-DA4B7FF9A579}|Backend-v02.csproj|solutionrelative:controllers\\placescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,19 +47,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlacesController.cs",
-              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Controllers\\PlacesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PlacesController.cs",
-              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Controllers\\PlacesController.cs",
-              "RelativeToolTip": "Controllers\\PlacesController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBkAAAA3AAAAAAAAAA==",
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseAccess\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DataBaseAccess\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseAccess\\Repositories\\UserRepository.cs*",
+              "RelativeToolTip": "DataBaseAccess\\Repositories\\UserRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T18:37:31.932Z",
+              "WhenOpened": "2024-10-11T10:44:59.127Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Abstractions\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "DataBaseCore\\Abstractions\\IUserRepository.cs",
+              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Abstractions\\IUserRepository.cs",
+              "RelativeToolTip": "DataBaseCore\\Abstractions\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T10:39:46.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegistrationRequest.cs",
+              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseAccess\\RegistrationRequest.cs",
+              "RelativeDocumentMoniker": "DataBaseAccess\\RegistrationRequest.cs",
+              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseAccess\\RegistrationRequest.cs",
+              "RelativeToolTip": "DataBaseAccess\\RegistrationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T10:29:57.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataBaseDbContext.cs",
+              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseAccess\\DataBaseDbContext.cs",
+              "RelativeDocumentMoniker": "DataBaseAccess\\DataBaseDbContext.cs",
+              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseAccess\\DataBaseDbContext.cs",
+              "RelativeToolTip": "DataBaseAccess\\DataBaseDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T10:19:44.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LocalUser.cs",
+              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Models\\LocalUser.cs",
+              "RelativeDocumentMoniker": "DataBaseCore\\Models\\LocalUser.cs",
+              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\DataBaseCore\\Models\\LocalUser.cs",
+              "RelativeToolTip": "DataBaseCore\\Models\\LocalUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T10:18:00.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlacesController.cs",
+              "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Controllers\\PlacesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PlacesController.cs",
+              "ToolTip": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Controllers\\PlacesController.cs",
+              "RelativeToolTip": "Controllers\\PlacesController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T18:37:31.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CamerasController.cs",
               "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Controllers\\CamerasController.cs",
               "RelativeDocumentMoniker": "Controllers\\CamerasController.cs",
@@ -47,12 +127,11 @@
               "RelativeToolTip": "Controllers\\CamerasController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwB0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T08:32:07.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T08:32:07.088Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\VS Projects\\DataBase\\DB_BD_v02\\Backend-v02\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
